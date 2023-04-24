@@ -1,3 +1,5 @@
-# trybe-exercicios# Meu repositório de exercícios
-## Nova linha de codigo
-## Como instalar:
+# trybe-exercicios
+# Meu repositório de exercícios
+## Dia 03 - Git & Github
+## Conceitos aprendidos:
+### 
