@@ -35,7 +35,7 @@ if (notaCandidato >= 80) {
 } else {
     console.log('Infelizmente, você reprovou');
 }
-//Exercicio 5 Operadores Lógicos
+//Exercicio 5 Operadores Lógicos AND
 let currentHour = 5;
 let message = '';
 if (currentHour >= 22) {
@@ -53,5 +53,29 @@ if (currentHour >= 22) {
 } else {
     message = 'Hmmm, cheiro de café recém-passado';
     console.log(message);
+}
+//Exercicio 2 Operadores Lógicos OR
+let weekDay = 'quarta-feira';
+if (weekDay === 'segunda-feira' || weekDay === 'terça-feira' || weekDay === 'quarta-feira' || weekDay === 'quinta-feira' || weekDay === 'sexta-feira' ) {
+    console.log('Oba, mais um dia de aprendizado na Trybe >:D');
+} else {
+    console.log('FINALMENTE, descanso merecido! UwU!')
+}
+//Exercicio 3 Operadores Lógicos Switch Case
+let statusPessoa = 'Lista';
+
+switch (statusPessoa) {
+    case 'Aprovada':
+        console.log("Parabéns, você está no grupo de pessoas aprovadas!");
+        break;
+    case 'Lista': 
+        console.log('Você está na nossa lista de espera');
+        break;
+    case 'Reprovada':
+        console.log('Infelizmente, você reprovou');
+        break;
+    default:
+        console.log('Informação incorreta.');
+        break;
 }
 
