@@ -78,4 +78,29 @@ switch (statusPessoa) {
         console.log('Informação incorreta.');
         break;
 }
+//Exercicio prático if/else - 1
+let a = 30;
+let b = 7;
+//Adição
+let adição = a + b;
+console.log(adição);
+//Subtração
+let subtracao = a - b;
+console.log(subtracao);
+//Multiplicação
+let multiplicacao = a * b;
+console.log (multiplicacao);
+//Divisão 
+let divisao = a / b;
+console.log(divisao);
+
+//Exercicio prático if/else - 2
+let variavel_a = 20;
+let variavel_b = 13;
+if (variavel_a > variavel_b) {
+    console.log(variavel_a);
+};
+
+
+
 
