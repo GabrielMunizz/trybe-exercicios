@@ -18,5 +18,7 @@ let student1 = {
     for (let i in arrayOfSkills) {
         console.log('Skill em: ' + arrayOfSkills[i] + ', Nível: ' + student[arrayOfSkills[i]])
     }
+    console.log(arrayOfSkills)
   }
   console.log(listSkills(student1));
+  
