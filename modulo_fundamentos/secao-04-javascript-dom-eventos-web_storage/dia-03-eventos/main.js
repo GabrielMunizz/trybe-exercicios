@@ -23,14 +23,22 @@ getUl.addEventListener('click', (evento) => {
 input.addEventListener('input', () => {
   const getTech = document.querySelector('.tech');
   getTech.innerText = input.value
-})
+});
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy',
 // redirecione para alguma página.
 // 4.1. Que tal redirecionar para seu portfólio? Dica: Lembre-se dos métodos `window.location.replace` e `window.open`.
-
+myWebpage.addEventListener('dblclick', (evento) => {
+  evento.target = window.open('https://github.com/GabrielMunizz');
+})
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo.
+myWebpage.addEventListener('mouseover', (evento) => {
+  myWebpage.style.color = 'red'
+})
+myWebpage.addEventListener('mouseout', (evento) => {
+  myWebpage.style.color = 'white'
+})
 
 // Segue abaixo um exemplo de uso do event.target.
 
